@@ -1,0 +1,20 @@
+git init
+No ramo master
+
+No commits yet
+
+nada para enviar (crie/copie arquivos e use "git add" para registrar)
+# Adicionar todos os arquivos modificados
+git add .
+
+# Você também pode adicionar arquivos específicos
+git add meu_arquivo.js
+
+# Então você comita a alteração
+# Ao comitar você deve adicionar também uma mensagem que descreve o que aquela alteração faz
+
+git commit -m "Mensagem sobre a alteração feita"
+git remote add origin git@github.com:user-github/repo-name.git
+origin  git@github.com:user-github/repo-name.git (fetch)
+origin  git@github.com:user-github/repo-name.git (push)
+git push origin master
